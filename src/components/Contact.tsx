@@ -65,7 +65,7 @@ const Contact = () => {
             {/* Social Links */}
             <div className="flex gap-4 pt-4">
               <a
-                href="https://api.whatsapp.com/send?phone=5581981829776"
+                href="https://wa.me/+5581981829776"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 px-6 py-4 bg-[hsl(142,70%,45%)] text-primary-foreground rounded-xl font-heading font-semibold hover:opacity-90 transition-opacity"
@@ -116,7 +116,7 @@ const Contact = () => {
               </ul>
 
               <a
-                href="https://api.whatsapp.com/send?phone=5581981829776"
+                href="https://wa.me/+5581981829776"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-8 py-4 bg-gold-gradient text-secondary-foreground font-heading font-bold text-sm uppercase tracking-wider rounded-full hover:scale-105 transition-transform duration-300"
