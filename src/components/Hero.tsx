@@ -47,7 +47,7 @@ const Hero = () => {
 
           <div className="animate-fade-up opacity-0 delay-300 flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="https://api.whatsapp.com/send?phone=5581981829776"
+              href="https://wa.me/+5581981829776"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 bg-gold-gradient text-secondary-foreground font-heading font-bold text-sm uppercase tracking-wider rounded-full hover:scale-105 transition-transform duration-300 btn-glow animate-pulse-glow"

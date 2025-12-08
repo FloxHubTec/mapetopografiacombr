@@ -40,7 +40,7 @@ const Header = () => {
           </ul>
 
           <a
-            href="https://api.whatsapp.com/send?phone=5581981829776"
+            href="https://wa.me/+5581981829776"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden md:inline-flex items-center gap-2 px-6 py-2.5 bg-primary text-primary-foreground font-heading font-semibold text-sm rounded-full hover:bg-primary/90 transition-all duration-300 hover:shadow-button"
@@ -75,7 +75,7 @@ const Header = () => {
               ))}
               <li className="px-6 py-3">
                 <a
-                  href="https://api.whatsapp.com/send?phone=5581981829776"
+                  href="https://wa.me/+5581981829776"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-6 py-2.5 bg-primary text-primary-foreground font-heading font-semibold text-sm rounded-full"
