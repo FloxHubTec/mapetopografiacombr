@@ -54,10 +54,7 @@ export default {
         navy: {
           DEFAULT: "hsl(var(--navy))",
           light: "hsl(var(--navy-light))",
-        },
-        gold: {
-          DEFAULT: "hsl(var(--gold))",
-          light: "hsl(var(--gold-light))",
+          lighter: "hsl(var(--navy-lighter))",
         },
         slate: "hsl(var(--slate))",
         sidebar: {
@@ -90,8 +87,8 @@ export default {
           "50%": { transform: "translateY(-10px)" },
         },
         "pulse-glow": {
-          "0%, 100%": { boxShadow: "0 0 20px hsla(45, 90%, 55%, 0.3)" },
-          "50%": { boxShadow: "0 0 40px hsla(45, 90%, 55%, 0.5)" },
+          "0%, 100%": { boxShadow: "0 0 20px hsla(215, 60%, 25%, 0.3)" },
+          "50%": { boxShadow: "0 0 40px hsla(215, 60%, 25%, 0.5)" },
         },
       },
       animation: {
@@ -102,7 +99,7 @@ export default {
       },
       backgroundImage: {
         "hero-gradient": "var(--gradient-hero)",
-        "gold-gradient": "var(--gradient-gold)",
+        "accent-gradient": "var(--gradient-accent)",
         "overlay-gradient": "var(--gradient-overlay)",
       },
       boxShadow: {

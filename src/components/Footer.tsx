@@ -24,7 +24,7 @@ const Footer = () => {
                 href="https://wa.me/+5581981829776"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-gold/20 transition-colors duration-300"
+                className="w-10 h-10 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-primary-foreground/20 transition-colors duration-300"
                 aria-label="WhatsApp"
               >
                 <MessageCircle className="w-5 h-5" />
@@ -33,7 +33,7 @@ const Footer = () => {
                 href="https://www.instagram.com/mapetopografia"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-gold/20 transition-colors duration-300"
+                className="w-10 h-10 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-primary-foreground/20 transition-colors duration-300"
                 aria-label="Instagram"
               >
                 <Instagram className="w-5 h-5" />
@@ -55,7 +55,7 @@ const Footer = () => {
                 <li key={link.href}>
                   <a
                     href={link.href}
-                    className="text-primary-foreground/70 hover:text-gold transition-colors duration-300"
+                    className="text-primary-foreground/70 hover:text-primary-foreground transition-colors duration-300"
                   >
                     {link.label}
                   </a>
@@ -90,7 +90,7 @@ const Footer = () => {
               © {currentYear} Mape Topografia Ltda. Todos os direitos reservados.
             </p>
             <p className="text-primary-foreground/50 text-sm">
-              CREA: PE-47766 | CNPJ: 40.158.244/0001-11
+              CREA: 0000782513-PE | CNPJ: 40.158.244/0001-11
             </p>
           </div>
         </div>

@@ -31,13 +31,13 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 container-custom px-4 md:px-8 text-center">
         <div className="max-w-4xl mx-auto">
-          <p className="animate-fade-up opacity-0 text-gold font-heading font-semibold tracking-[0.3em] uppercase text-sm md:text-base mb-6">
+          <p className="animate-fade-up opacity-0 text-primary-foreground/80 font-heading font-semibold tracking-[0.3em] uppercase text-sm md:text-base mb-6">
             Precisão • Qualidade • Agilidade
           </p>
 
           <h1 className="animate-fade-up opacity-0 delay-100 text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-primary-foreground leading-tight mb-6">
             Soluções em
-            <span className="block text-gradient mt-2">Topografia</span>
+            <span className="block text-navy-lighter mt-2">Topografia</span>
           </h1>
 
           <p className="animate-fade-up opacity-0 delay-200 text-lg md:text-xl text-primary-foreground/80 max-w-2xl mx-auto mb-10 font-body leading-relaxed">
@@ -50,7 +50,7 @@ const Hero = () => {
               href="https://wa.me/+5581981829776"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-8 py-4 bg-gold-gradient text-secondary-foreground font-heading font-bold text-sm uppercase tracking-wider rounded-full hover:scale-105 transition-transform duration-300 btn-glow animate-pulse-glow"
+              className="px-8 py-4 bg-primary-foreground text-primary font-heading font-bold text-sm uppercase tracking-wider rounded-full hover:scale-105 transition-transform duration-300 btn-glow"
             >
               Solicitar Orçamento
             </a>

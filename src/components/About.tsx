@@ -19,8 +19,8 @@ const About = () => {
     },
     {
       icon: Shield,
-      title: "Confiança",
-      description: "CREA: PE-47766. Empresa devidamente registrada e habilitada.",
+      title: "Tecnologia",
+      description: "AutoCAD, Civil 3D, Topograph e QGIS para precisão técnica.",
     },
   ];
 
@@ -36,26 +36,27 @@ const About = () => {
 
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-foreground mb-6 leading-tight">
               Excelência em
-              <span className="text-primary block">Topografia desde sempre</span>
+              <span className="text-primary block">Topografia</span>
             </h2>
 
             <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-              A Mape é uma empresa com experiência consolidada em serviços de topografia, 
-              formada por um corpo técnico altamente qualificado que investe constantemente 
+              A MAPE é uma empresa com experiência consolidada em serviços de topografia, 
+              formada por um corpo técnico altamente qualificado, que investe continuamente 
               em conhecimento, tecnologia e equipamentos de ponta.
             </p>
 
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              A empresa é representada pelos engenheiros agrônomos <strong className="text-foreground">Pedro Lira</strong> e{" "}
+              <strong className="text-foreground">Marina Lira</strong>, ambos formados pela UFRPE.
+            </p>
+
             <p className="text-muted-foreground leading-relaxed mb-8">
-              Representada pelo engenheiro agrônomo <strong className="text-foreground">Pedro Lira</strong>, 
-              formado na UFRPE e pós-graduado em Georreferenciamento de Imóveis Rurais, 
-              operando os softwares AutoCAD, AutoCAD Civil 3D, Topograph e QGIS.
+              Pedro Lira é pós-graduado em Georreferenciamento de Imóveis Rurais. A equipe atua com os 
+              softwares AutoCAD, AutoCAD Civil 3D, Topograph e QGIS, garantindo precisão técnica e 
+              confiabilidade em todas as etapas dos projetos.
             </p>
 
             <div className="flex flex-wrap gap-4">
-              <div className="px-5 py-3 bg-background rounded-lg shadow-card">
-                <p className="text-2xl font-heading font-bold text-primary">CREA</p>
-                <p className="text-sm text-muted-foreground">PE-47766</p>
-              </div>
               <div className="px-5 py-3 bg-background rounded-lg shadow-card">
                 <p className="text-2xl font-heading font-bold text-primary">CNPJ</p>
                 <p className="text-sm text-muted-foreground">40.158.244/0001-11</p>
