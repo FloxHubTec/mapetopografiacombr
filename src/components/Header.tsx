@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import logoMape from "@/assets/logo-mape.jpg";
+import logoMape from "@/assets/logo-mape.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
