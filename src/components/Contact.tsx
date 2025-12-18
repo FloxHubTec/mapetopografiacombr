@@ -88,7 +88,7 @@ const Contact = () => {
           {/* CTA Card */}
           <div className="relative p-8 md:p-12 bg-hero-gradient rounded-2xl text-primary-foreground overflow-hidden">
             {/* Decorative */}
-            <div className="absolute top-0 right-0 w-64 h-64 bg-gold/10 rounded-full -translate-y-1/2 translate-x-1/2" />
+            <div className="absolute top-0 right-0 w-64 h-64 bg-primary-foreground/10 rounded-full -translate-y-1/2 translate-x-1/2" />
             <div className="absolute bottom-0 left-0 w-48 h-48 bg-primary-foreground/5 rounded-full translate-y-1/2 -translate-x-1/2" />
 
             <div className="relative">
@@ -109,7 +109,7 @@ const Contact = () => {
                   "Cobertura em todo Pernambuco",
                 ].map((item) => (
                   <li key={item} className="flex items-center gap-3 text-sm">
-                    <span className="w-2 h-2 bg-gold rounded-full" />
+                    <span className="w-2 h-2 bg-primary-foreground rounded-full" />
                     {item}
                   </li>
                 ))}
@@ -119,7 +119,7 @@ const Contact = () => {
                 href="https://wa.me/+5581981829776"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-8 py-4 bg-gold-gradient text-secondary-foreground font-heading font-bold text-sm uppercase tracking-wider rounded-full hover:scale-105 transition-transform duration-300"
+                className="inline-flex items-center gap-2 px-8 py-4 bg-primary-foreground text-primary font-heading font-bold text-sm uppercase tracking-wider rounded-full hover:scale-105 transition-transform duration-300"
               >
                 <MessageCircle className="w-5 h-5" />
                 Falar no WhatsApp
