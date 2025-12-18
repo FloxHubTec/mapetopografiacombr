@@ -1,35 +1,31 @@
-import { Award, Target, Users, Shield } from "lucide-react";
+import equipeImg from "@/assets/team/equipe.jpg";
 
 const About = () => {
-  const features = [
-    {
-      icon: Target,
-      title: "Precisão",
-      description: "Equipamentos de última geração para máxima exatidão nos levantamentos.",
-    },
-    {
-      icon: Users,
-      title: "Experiência",
-      description: "Corpo técnico altamente qualificado e em constante atualização.",
-    },
-    {
-      icon: Award,
-      title: "Qualidade",
-      description: "Comprometimento com excelência em cada projeto executado.",
-    },
-    {
-      icon: Shield,
-      title: "Tecnologia",
-      description: "AutoCAD, Civil 3D, Topograph e QGIS para precisão técnica.",
-    },
-  ];
-
   return (
     <section id="sobre" className="section-padding bg-muted">
       <div className="container-custom">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-          {/* Left Content */}
-          <div>
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+          {/* Left Content - Team Photo */}
+          <div className="relative order-2 lg:order-1">
+            <div className="relative rounded-2xl overflow-hidden shadow-card">
+              <img
+                src={equipeImg}
+                alt="Pedro Lira e Marina Lira - Engenheiros Agrônomos da MAPE Topografia"
+                className="w-full h-auto object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 p-6 text-primary-foreground">
+                <p className="font-heading font-bold text-lg">Pedro Lira & Marina Lira</p>
+                <p className="text-primary-foreground/80 text-sm">Engenheiros Agrônomos - UFRPE</p>
+              </div>
+            </div>
+            {/* Decorative element */}
+            <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-primary/10 rounded-xl -z-10" />
+            <div className="absolute -top-4 -left-4 w-16 h-16 bg-primary/5 rounded-xl -z-10" />
+          </div>
+
+          {/* Right Content - Text */}
+          <div className="order-1 lg:order-2">
             <span className="inline-block px-4 py-1.5 bg-primary/10 text-primary font-heading font-semibold text-xs uppercase tracking-wider rounded-full mb-6">
               Sobre Nós
             </span>
@@ -62,27 +58,6 @@ const About = () => {
                 <p className="text-sm text-muted-foreground">40.158.244/0001-11</p>
               </div>
             </div>
-          </div>
-
-          {/* Right Content - Features Grid */}
-          <div className="grid sm:grid-cols-2 gap-6">
-            {features.map((feature, index) => (
-              <div
-                key={feature.title}
-                className="p-6 bg-background rounded-xl shadow-card card-hover"
-                style={{ animationDelay: `${index * 0.1}s` }}
-              >
-                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                  <feature.icon className="w-6 h-6 text-primary" />
-                </div>
-                <h3 className="font-heading font-bold text-foreground text-lg mb-2">
-                  {feature.title}
-                </h3>
-                <p className="text-muted-foreground text-sm leading-relaxed">
-                  {feature.description}
-                </p>
-              </div>
-            ))}
           </div>
         </div>
       </div>
